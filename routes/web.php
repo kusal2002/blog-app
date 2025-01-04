@@ -4,8 +4,18 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    return view('frontend.index');
+});
+
+Route::get('/index', function () {
     return view('welcome');
 });
+
+
+Route::get('/blog', function () {
+    return view('frontend.single');
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
