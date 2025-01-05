@@ -22,6 +22,10 @@ Route::prefix('admin')->middleware('auth:admin')->group(function () {
         return view('admin.dashboard');
     })->name('admin.dashboard');
 
+    Route::get('/index', function () {
+        return view('admin.index');
+    })->name('admin.index');
+
     Route::post('logout', [LoginController::class, 'destroy'])
         ->name('admin.logout');
 });
