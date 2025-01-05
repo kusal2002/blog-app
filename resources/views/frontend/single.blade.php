@@ -6,11 +6,11 @@
     <div class="container">
       <div class="row same-height justify-content-center">
         <div class="col-md-6">
-          <div class="post-entry text-center">
+          <div class="text-center post-entry">
             <h1 class="mb-4">Don’t assume your user data in the cloud is safe</h1>
-            <div class="post-meta align-items-center text-center">
-              <figure class="author-figure mb-0 me-3 d-inline-block"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
-              <span class="d-inline-block mt-1">By Carl Atkinson</span>
+            <div class="text-center post-meta align-items-center">
+              <figure class="mb-0 author-figure me-3 d-inline-block"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
+              <span class="mt-1 d-inline-block">By Carl Atkinson</span>
               <span>&nbsp;-&nbsp; February 10, 2019</span>
             </div>
           </div>
@@ -30,15 +30,15 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nam quas inventore, ut iure iste modi eos adipisci ad ea itaque labore earum autem nobis et numquam, minima eius. Nam eius, non unde ut aut sunt eveniet rerum repellendus porro.</p>
             <p>Sint ab voluptates itaque, ipsum porro qui obcaecati cumque quas sit vel. Voluptatum provident id quis quo. Eveniet maiores perferendis officia veniam est laborum, expedita fuga doloribus natus repellendus dolorem ab similique sint eius cupiditate necessitatibus, magni nesciunt ex eos.</p>
             <p>Quis eius aspernatur, eaque culpa cumque reiciendis, nobis at earum assumenda similique ut? Aperiam vel aut, ex exercitationem eos consequuntur eaque culpa totam, deserunt, aspernatur quae eveniet hic provident ullam tempora error repudiandae sapiente illum rerum itaque voluptatem. Commodi, sequi.</p>
-            <div class="row my-4">
-              <div class="col-md-12 mb-4">
-                <img src="images/hero_1.jpg" alt="Image placeholder" class="img-fluid rounded">
+            <div class="my-4 row">
+              <div class="mb-4 col-md-12">
+                <img src="images/hero_1.jpg" alt="Image placeholder" class="rounded img-fluid">
               </div>
-              <div class="col-md-6 mb-4">
-                <img src="images/img_2_horizontal.jpg" alt="Image placeholder" class="img-fluid rounded">
+              <div class="mb-4 col-md-6">
+                <img src="images/img_2_horizontal.jpg" alt="Image placeholder" class="rounded img-fluid">
               </div>
-              <div class="col-md-6 mb-4">
-                <img src="images/img_3_horizontal.jpg" alt="Image placeholder" class="img-fluid rounded">
+              <div class="mb-4 col-md-6">
+                <img src="images/img_3_horizontal.jpg" alt="Image placeholder" class="rounded img-fluid">
               </div>
             </div>
             <p>Quibusdam autem, quas molestias recusandae aperiam molestiae modi qui ipsam vel. Placeat tenetur veritatis tempore quos impedit dicta, error autem, quae sint inventore ipsa quidem. Quo voluptate quisquam reiciendis, minus, animi minima eum officia doloremque repellat eos, odio doloribus cum.</p>
@@ -66,7 +66,7 @@
                   <h3>Jean Doe</h3>
                   <div class="meta">January 9, 2018 at 2:21pm</div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                  <p><a href="#" class="reply rounded">Reply</a></p>
+                  <p><a href="#" class="rounded reply">Reply</a></p>
                 </div>
               </li>
 
@@ -78,7 +78,7 @@
                   <h3>Jean Doe</h3>
                   <div class="meta">January 9, 2018 at 2:21pm</div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                  <p><a href="#" class="reply rounded">Reply</a></p>
+                  <p><a href="#" class="rounded reply">Reply</a></p>
                 </div>
 
                 <ul class="children">
@@ -90,7 +90,7 @@
                       <h3>Jean Doe</h3>
                       <div class="meta">January 9, 2018 at 2:21pm</div>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                      <p><a href="#" class="reply rounded">Reply</a></p>
+                      <p><a href="#" class="rounded reply">Reply</a></p>
                     </div>
 
 
@@ -103,7 +103,7 @@
                           <h3>Jean Doe</h3>
                           <div class="meta">January 9, 2018 at 2:21pm</div>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                          <p><a href="#" class="reply rounded">Reply</a></p>
+                          <p><a href="#" class="rounded reply">Reply</a></p>
                         </div>
 
                         <ul class="children">
@@ -115,7 +115,7 @@
                               <h3>Jean Doe</h3>
                               <div class="meta">January 9, 2018 at 2:21pm</div>
                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                              <p><a href="#" class="reply rounded">Reply</a></p>
+                              <p><a href="#" class="rounded reply">Reply</a></p>
                             </div>
                           </li>
                         </ul>
@@ -133,13 +133,13 @@
                   <h3>Jean Doe</h3>
                   <div class="meta">January 9, 2018 at 2:21pm</div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
-                  <p><a href="#" class="reply rounded">Reply</a></p>
+                  <p><a href="#" class="rounded reply">Reply</a></p>
                 </div>
               </li>
             </ul>
             <!-- END comment-list -->
 
-            <div class="comment-form-wrap pt-5">
+            <div class="pt-5 comment-form-wrap">
               <h3 class="mb-5">Leave a comment</h3>
               <form action="#" class="p-5 bg-light">
                 <div class="form-group">
@@ -180,12 +180,12 @@
           </div>
           <!-- END sidebar-box -->
           <div class="sidebar-box">
-            <div class="bio text-center">
-              <img src="images/person_2.jpg" alt="Image Placeholder" class="img-fluid mb-3">
+            <div class="text-center bio">
+              <img src="images/person_2.jpg" alt="Image Placeholder" class="mb-3 img-fluid">
               <div class="bio-body">
                 <h2>Hannah Anderson</h2>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
-                <p><a href="#" class="btn btn-primary btn-sm rounded px-2 py-2">Read my bio</a></p>
+                <p><a href="#" class="px-2 py-2 rounded btn btn-primary btn-sm">Read my bio</a></p>
                 <p class="social">
                   <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
@@ -202,7 +202,7 @@
               <ul>
                 <li>
                   <a href="">
-                    <img src="images/img_1_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+                    <img src="images/img_1_sq.jpg" alt="Image placeholder" class="rounded me-4">
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -213,7 +213,7 @@
                 </li>
                 <li>
                   <a href="">
-                    <img src="images/img_2_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+                    <img src="images/img_2_sq.jpg" alt="Image placeholder" class="rounded me-4">
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -224,7 +224,7 @@
                 </li>
                 <li>
                   <a href="">
-                    <img src="images/img_3_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+                    <img src="images/img_3_sq.jpg" alt="Image placeholder" class="rounded me-4">
                     <div class="text">
                       <h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
                       <div class="post-meta">
@@ -278,8 +278,8 @@
   <!-- Start posts-entry -->
   <section class="section posts-entry posts-entry-sm bg-light">
     <div class="container">
-      <div class="row mb-4">
-        <div class="col-12 text-uppercase text-black">More Blog Posts</div>
+      <div class="mb-4 row">
+        <div class="text-black col-12 text-uppercase">More Blog Posts</div>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-3">
