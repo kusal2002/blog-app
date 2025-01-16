@@ -1,12 +1,13 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('frontend.index');
-// });
+Route::get('/', function () {
+    return view('frontend.single');
+});
 
 // Route::get('/index', function () {
 //     return view('welcome');
@@ -20,6 +21,8 @@ use Illuminate\Support\Facades\Route;
 
 //resource route
 Route::resource('/blog', PostController::class);
+Route::resource('categories', CategoryController::class);
+
 // Route::get('/blog/{id} => $posts->id', [PostController::class, 'index'])->name('posts.show');
 
 Route::get('/dashboard', function () {

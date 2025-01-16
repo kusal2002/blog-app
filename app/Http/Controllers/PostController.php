@@ -24,7 +24,9 @@ class PostController extends Controller
      */
     public function create()
     {
-        return view('posts.create');
+        $categories = Category::all();
+        // dd($categories);
+        return view('admin.createpost', compact('categories'));
 
     }
 
@@ -37,30 +39,32 @@ class PostController extends Controller
             'title' => 'required|unique:posts|max:255',
             'content' => 'required',
             'category_id' => 'required|exists:categories,id',
+            'image' => 'nullable|image',
         ]);
 
         $imagePath = null;
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('images/posts', 'public');
+            $imagePath = $request->file('image')->store('/postimages', 'public');
         }
         Post::create([
             'title' => $request->title,
             'slug' => Str::slug($request->title),
             'content' => $request->content,
-            'user_id' => \Illuminate\Support\Facades\Auth::user()->id,
+            'user_id' => \Illuminate\Support\Facades\Auth::guard('admin')->user()->id,
             'category_id' => $request->category_id,
             'image' => $imagePath,
 
         ]);
 
-        return redirect()->route('posts.index')->with('success', 'Post created successfully.');
+        return redirect()->route('blog.create')->with('success', 'Post created successfully.');
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Post $post)
+    public function show($id)
     {
+        $post = Post::findOrFail($id);
         return view('frontend.single', compact('post'));
     }
 

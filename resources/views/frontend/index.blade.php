@@ -10,7 +10,7 @@
                     <div class="col-md-4">
                         <a href="{{ route('blog.show', $post->id) }}" class="h-entry mb-30 v-height gradient">
 
-                            <div class="featured-img" style="background-image: url('{{ $post->image }}');"></div>
+                            <div class="featured-img" style="background-image: url('{{ asset("storage/$post->image") }}');"></div>
 
                             <div class="text">
                                 <span class="date">{{ $post->created_at->format('F j, Y') }}</span>
